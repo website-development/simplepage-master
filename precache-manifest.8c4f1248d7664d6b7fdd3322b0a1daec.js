@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9286f0833a6f027ea90972dbf9df6c65",
+    "revision": "7d70a46167a4cb239160a4caf2923a36",
     "url": "/simplepage-master/index.html"
   },
   {
-    "revision": "35772397569ab0969d9c",
-    "url": "/simplepage-master/static/css/main.4d66f2e2.chunk.css"
+    "revision": "4be2af8a284a76d02685",
+    "url": "/simplepage-master/static/css/main.9a3b31e6.chunk.css"
   },
   {
-    "revision": "0bdd47b88ecf87070ce2",
-    "url": "/simplepage-master/static/js/2.6b78a115.chunk.js"
+    "revision": "080a437e97a086b02d2d",
+    "url": "/simplepage-master/static/js/2.4343decf.chunk.js"
   },
   {
-    "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/simplepage-master/static/js/2.6b78a115.chunk.js.LICENSE.txt"
+    "revision": "3453b8997016469371284a28c0e873e2",
+    "url": "/simplepage-master/static/js/2.4343decf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "35772397569ab0969d9c",
-    "url": "/simplepage-master/static/js/main.c661ec65.chunk.js"
+    "revision": "4be2af8a284a76d02685",
+    "url": "/simplepage-master/static/js/main.8dd6d235.chunk.js"
   },
   {
     "revision": "afc1b5c31023f00cdfac",
