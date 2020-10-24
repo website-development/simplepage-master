@@ -11,6 +11,12 @@
         url(./fonts/Poppins-SemiBold.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'Rubik';
+    src: local('Rubik'),
+        url(./fonts/Rubik-VariableFont_wght.ttf) format('truetype');
+}
+
 // colors
 $black: #0B0B0B;
 $darkest-grey: #151616;
@@ -23,6 +29,8 @@ $lightest-grey: #ECF0F4;
 $white: #FFFFFF;
 $blue: #046EFF;
 $dark-blue: #005EDE;
+$border-grey: #2F3032;
+$darkest-grey30: rgba(20, 21, 21, .3);
 
 // font sizes
 $font-size-extra-small: 10px;

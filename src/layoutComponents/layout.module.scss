@@ -1,0 +1,19 @@
+.container{
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+  font-family: Rubik;
+  box-sizing: border-box;
+
+  .leftSide{
+    height: 100%;
+  }
+
+  .rightSide{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 19px 0 0 24px;
+  }
+}

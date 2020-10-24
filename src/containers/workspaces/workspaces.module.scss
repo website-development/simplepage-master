@@ -1,0 +1,129 @@
+
+.controls{
+  display: flex;
+  padding-top: 19px;
+  padding-bottom: 26px;
+
+  .buttonWrapper{
+    max-width: 382px;
+    min-width: 382px;
+    margin-right: 24px;
+
+    button{
+      width: 205px;
+      height: 36px;
+      border-radius: 3px;
+      border: 1px solid #0164ea;
+      background-color: #046eff;
+      
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 500;
+    }
+  }
+
+  .searchWrapper{
+    input{
+      width: calc(382px * 2 - 4px);
+      height: 36px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+      background-color: #ffffff;
+      border: none;
+      border-radius: 3px;
+      padding-left: 28px;
+      background-image: url(../../images/Shape.png);
+      background-repeat: no-repeat;
+      background-position: 8px 12px;
+    }
+  }
+}
+
+.list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .workspace{
+    width: 334px;
+    height: 140px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    padding: 24px;
+
+    .header{
+      display: flex;
+      justify-content: space-between;
+
+      .colorMark{
+        width: 17px;
+        height: 3px;
+        border-radius: 80px;
+        background-color: #00bbae;
+      }
+      .kebab{
+        width: 15px;
+        height: 3px;
+        background-image: url(../../images/kebab-h.png);
+        background-position: center center;
+        // background-color: red;
+      }
+    }
+    .body{
+      display: flex;
+      flex-direction: column;
+
+      .title{
+        padding: 24px 0 18px 0;
+        color: #383838;
+        font-size: 15px;
+        font-weight: 400;
+      }
+
+      .tags{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 22px;
+
+        .tag{
+          display: flex;
+          align-items: center;
+          height: 28px;
+          padding: 0 10px;
+          border-radius: 2px;
+          background-color: #f7f7f7;
+          margin-left: 4px;
+
+          color: #66686a;
+          font-family: Rubik;
+          font-size: 11px;
+          font-weight: 400;
+        }
+      }
+    }
+    .footer{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .users{
+        display: flex;
+        .user{
+          img{
+            width: 26px;
+            height: 26px;
+            border-radius: 26px;
+          }
+          padding-right: 4px;
+        }
+      }
+
+      .timesAgo{
+        color: #66686a;
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+  }
+}

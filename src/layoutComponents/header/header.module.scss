@@ -1,0 +1,44 @@
+.header{
+  display: flex;
+  padding-bottom: 20px;
+  padding-right: 24px;
+  
+  .leftSide{
+    display: flex;
+    flex-direction: column;
+    color: #383838;
+    font-weight: 400;
+
+    .title{
+      font-size: 20px;
+      padding-bottom: 6px;
+    }
+
+    .subTitle{
+      font-size: 13px;
+    }
+  }
+
+  .rightSide{
+    margin-left: auto;
+    .customer{
+      position: relative;
+      img{
+        width: 36px;
+        height: 36px;
+        border-radius: 36px;
+      }
+
+      .isOnline{
+        width: 7px;
+        height: 7px;
+        border: 3px solid #f7f7f7;
+        background-color: #ff3c3c;
+        border-radius: 7px;
+        position: absolute;
+        top: 0px;
+        right: -5px;
+      }
+    }
+  }
+}
